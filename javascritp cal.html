@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Using JavaScript</title>
+    <link rel="stylesheet" href="clcstyle.css">
+    <script src="calcstyle.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <h1 style="text-align: center;" id="active">Select Operator</h1>
+        <select id="opt" onchange="act()">
+            <option value='"Plus"'>+</option>
+            <option value='"Minus"'>-</option>
+            <option value='"Multiply"'>*</option>
+            <option value='"Devide"'>/</option>
+        </select>
+
+        <div class="form">
+            <div><input type="number" class="place" id="first" placeholder="First Number"></input></div>
+            <input type="number" class="place" id="second" placeholder="Second Number">
+
+            <div><button class="btn" onclick="calc()">Calculate</button>
+            </div>
+            <form action="">
+                <input id="result" type="number" placeholder="Answer" class="place" readonly>
+                <input type="reset" value="reset" class="btn1">
+            </form>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>

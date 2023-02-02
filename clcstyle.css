@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    border: 2px solid black;
+}
+.form{
+    margin: 40px 100px 100px 100px;
+}
+.place{
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(65, 240, 26);
+    border: 0px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(157, 194, 178);
+}
+.btn1{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(144, 144, 144);
+    border: 0px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(221, 97, 97);
+}
+#opt{
+    margin: 20px 0px 0px 200px ;
+    padding: 10px 20px;
+    background-color: aqua;
+    border-radius: 20px;
+    font-size: 40px;
+}
+#opt:hover{
+    cursor: pointer;
+}
